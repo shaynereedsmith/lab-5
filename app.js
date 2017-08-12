@@ -71,7 +71,9 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
-
+  var numbers = sum();
+  var string = '2, 3, 4 was passed in as an array of numbers, and 9 is their sum.';
+  return ['sum of the numbers in the array', 'a string that exactly follows this example and uses the values that were input into the function'];
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
